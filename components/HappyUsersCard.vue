@@ -5,11 +5,8 @@
         Join 1000+ Happy Premium Users
       </h1>
       <div class="flex flex-wrap gap-4 justify-around">
-        <div
-          data-aos="fade-right"
-          class="card flex gap-5 my-6 flex-col max-w-[345px]"
-          :style="`background-image: url(${quote});`"
-        >
+        <div data-aos="fade-right" class="card flex gap-5 my-6 flex-col max-w-[345px]"
+          :style="`background-image: url(${quote});`">
           <b class="relative">
             Lorem ipsum dolor sit amet, adhuc nulla definiebas mei ad, ei doming
             aperiam delicata est.
@@ -20,11 +17,8 @@
             <p>brand manager</p>
           </div>
         </div>
-        <div
-          data-aos="fade-up"
-          class="card flex gap-5 my-6 flex-col max-w-[345px]"
-          :style="`background-image: url(${quote});`"
-        >
+        <div data-aos="fade-up" class="card flex gap-5 my-6 flex-col max-w-[345px]"
+          :style="`background-image: url(${quote});`">
           <b class="relative">
             Lorem ipsum dolor sit amet, adhuc nulla definiebas mei ad, ei doming
             aperiam delicata est.
@@ -35,11 +29,8 @@
             <p>brand manager</p>
           </div>
         </div>
-        <div
-          data-aos="fade-left"
-          class="card flex gap-5 my-6 flex-col max-w-[345px]"
-          :style="`background-image: url(${quote});`"
-        >
+        <div data-aos="fade-left" class="card flex gap-5 my-6 flex-col max-w-[345px]"
+          :style="`background-image: url(${quote});`">
           <b class="relative">
             Lorem ipsum dolor sit amet, adhuc nulla definiebas mei ad, ei doming
             aperiam delicata est.
@@ -56,8 +47,8 @@
 </template>
 
 <script>
-import happyUserAvatar from "../assets/images/HappyUserAvatar.svg";
-import quote from "../assets/images/quote.svg";
+import happyUserAvatar from "~/assets/images/HappyUserAvatar.svg";
+import quote from "~/assets/images/quote.svg";
 
 export default {
   data() {
