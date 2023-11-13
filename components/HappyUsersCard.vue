@@ -47,13 +47,13 @@
 </template>
 
 <script>
-import happyUserAvatar from "~/assets/images/HappyUserAvatar.svg";
+import happyUserAvatar from "~/assets/images/happyUserAvatar.svg";
 import quote from "~/assets/images/quote.svg";
 
 export default {
   data() {
     return {
-      happyUserAvatar: happyUserAvatar,
+      happyUserAvatar,
       quote,
     };
   },
